@@ -1,0 +1,1032 @@
+{
+  "operation": "create",
+  "tableName": "mother-dairy-3-Table",
+  "payload": {
+    "Items": [
+      {
+        "DeviceId": "mother-dairy-3",
+        "DateTime": "2017-10-08 18:39",
+        "Milk Temperature": "4.5",
+        "TSS Temperature": "-3.9",
+        "AC Voltage": "222",
+        "Battery Voltage": "0"
+      },
+      {
+        "DeviceId": "mother-dairy-3",
+        "DateTime": "2017-10-08 18:40",
+        "Milk Temperature": "4.5",
+        "TSS Temperature": "-3.9",
+        "AC Voltage": "222",
+        "Battery Voltage": "0"
+      },
+      {
+        "DeviceId": "mother-dairy-3",
+        "DateTime": "2017-10-08 18:41",
+        "Milk Temperature": "4.5",
+        "TSS Temperature": "-3.9",
+        "AC Voltage": "222",
+        "Battery Voltage": "0"
+      },
+      {
+        "DeviceId": "mother-dairy-3",
+        "DateTime": "2017-10-08 18:42",
+        "Milk Temperature": "4.5",
+        "TSS Temperature": "-3.9",
+        "AC Voltage": "222",
+        "Battery Voltage": "0"
+      },
+      {
+        "DeviceId": "mother-dairy-3",
+        "DateTime": "2017-10-08 18:43",
+        "Milk Temperature": "4.5",
+        "TSS Temperature": "-3.9",
+        "AC Voltage": "222",
+        "Battery Voltage": "0"
+      },
+      {
+        "DeviceId": "mother-dairy-3",
+        "DateTime": "2017-10-08 18:44",
+        "Milk Temperature": "4.5",
+        "TSS Temperature": "-3.9",
+        "AC Voltage": "222",
+        "Battery Voltage": "0"
+      },
+      {
+        "DeviceId": "mother-dairy-3",
+        "DateTime": "2017-10-08 18:45",
+        "Milk Temperature": "2.5",
+        "TSS Temperature": "-6.9",
+        "AC Voltage": "-",
+        "Battery Voltage": "-"
+      },
+      {
+        "DeviceId": "mother-dairy-3",
+        "DateTime": "2017-10-08 18:46",
+        "Milk Temperature": "22.5",
+        "TSS Temperature": "2.9",
+        "AC Voltage": "250",
+        "Battery Voltage": "20"
+      },
+      {
+        "DeviceId": "mother-dairy-3",
+        "DateTime": "2017-10-08 18:47",
+        "Milk Temperature": "4.5",
+        "TSS Temperature": "-3.9",
+        "AC Voltage": "222",
+        "Battery Voltage": "0"
+      },
+      {
+        "DeviceId": "mother-dairy-3",
+        "DateTime": "2017-10-08 18:48",
+        "Milk Temperature": "4.5",
+        "TSS Temperature": "-3.9",
+        "AC Voltage": "222",
+        "Battery Voltage": "0"
+      },
+      {
+        "DeviceId": "mother-dairy-3",
+        "DateTime": "2017-10-08 18:49",
+        "Milk Temperature": "4.5",
+        "TSS Temperature": "-3.9",
+        "AC Voltage": "222",
+        "Battery Voltage": "0"
+      },
+      {
+        "DeviceId": "mother-dairy-3",
+        "DateTime": "2017-10-08 18:50",
+        "Milk Temperature": "4.5",
+        "TSS Temperature": "-3.9",
+        "AC Voltage": "222",
+        "Battery Voltage": "0"
+      },
+      {
+        "DeviceId": "mother-dairy-3",
+        "DateTime": "2017-10-08 18:51",
+        "Milk Temperature": "4.5",
+        "TSS Temperature": "-3.9",
+        "AC Voltage": "222",
+        "Battery Voltage": "0"
+      },
+      {
+        "DeviceId": "mother-dairy-3",
+        "DateTime": "2017-10-08 18:52",
+        "Milk Temperature": "4.5",
+        "TSS Temperature": "-3.9",
+        "AC Voltage": "222",
+        "Battery Voltage": "0"
+      },
+      {
+        "DeviceId": "mother-dairy-3",
+        "DateTime": "2017-10-08 18:53",
+        "Milk Temperature": "4.5",
+        "TSS Temperature": "-3.9",
+        "AC Voltage": "222",
+        "Battery Voltage": "0"
+      },
+      {
+        "DeviceId": "mother-dairy-3",
+        "DateTime": "2017-10-08 18:54",
+        "Milk Temperature": "4.5",
+        "TSS Temperature": "-3.9",
+        "AC Voltage": "222",
+        "Battery Voltage": "0"
+      },
+      {
+        "DeviceId": "mother-dairy-3",
+        "DateTime": "2017-10-08 18:55",
+        "Milk Temperature": "4.5",
+        "TSS Temperature": "-3.9",
+        "AC Voltage": "222",
+        "Battery Voltage": "0"
+      },
+      {
+        "DeviceId": "mother-dairy-3",
+        "DateTime": "2017-10-08 18:56",
+        "Milk Temperature": "4.5",
+        "TSS Temperature": "-3.9",
+        "AC Voltage": "222",
+        "Battery Voltage": "0"
+      },
+      {
+        "DeviceId": "mother-dairy-3",
+        "DateTime": "2017-10-08 18:57",
+        "Milk Temperature": "4.5",
+        "TSS Temperature": "-3.9",
+        "AC Voltage": "222",
+        "Battery Voltage": "0"
+      },
+       {
+        "DeviceId": "mother-dairy-3",
+        "DateTime": "2017-10-08 18:58",
+        "Milk Temperature": "2.5",
+        "TSS Temperature": "-4.5",
+        "AC Voltage": "256",
+        "Battery Voltage": "0"
+      },
+       {
+        "DeviceId": "mother-dairy-3",
+        "DateTime": "2017-10-08 18:59",
+        "Milk Temperature": "2.5",
+        "TSS Temperature": "-4.5",
+        "AC Voltage": "256",
+        "Battery Voltage": "0"
+      },
+       {
+        "DeviceId": "mother-dairy-3",
+        "DateTime": "2017-10-08 19:00",
+        "Milk Temperature": "2.5",
+        "TSS Temperature": "-4.5",
+        "AC Voltage": "256",
+        "Battery Voltage": "0"
+      },
+       {
+        "DeviceId": "mother-dairy-3",
+        "DateTime": "2017-10-08 19:01",
+        "Milk Temperature": "2.5",
+        "TSS Temperature": "-4.5",
+        "AC Voltage": "256",
+        "Battery Voltage": "0"
+      },
+       {
+        "DeviceId": "mother-dairy-3",
+        "DateTime": "2017-10-08 19:02",
+        "Milk Temperature": "7.5",
+        "TSS Temperature": "-2.5",
+        "AC Voltage": "0",
+        "Battery Voltage": "19"
+      },
+       {
+        "DeviceId": "mother-dairy-3",
+        "DateTime": "2017-10-08 19:03",
+        "Milk Temperature": "8",
+        "TSS Temperature": "3",
+        "AC Voltage": "-",
+        "Battery Voltage": "18"
+      },
+       {
+        "DeviceId": "mother-dairy-3",
+        "DateTime": "2017-10-08 19:04",
+        "Milk Temperature": "-",
+        "TSS Temperature": "-4",
+        "AC Voltage": "250",
+        "Battery Voltage": "22"
+      },
+       {
+        "DeviceId": "mother-dairy-3",
+        "DateTime": "2017-10-08 19:05",
+        "Milk Temperature": "32",
+        "TSS Temperature": "-1",
+        "AC Voltage": "233",
+        "Battery Voltage": "-"
+      },
+       {
+        "DeviceId": "mother-dairy-3",
+        "DateTime": "2017-10-08 19:06",
+        "Milk Temperature": "6.5",
+        "TSS Temperature": "-1.8",
+        "AC Voltage": "240",
+        "Battery Voltage": "10"
+      },
+       {
+        "DeviceId": "mother-dairy-3",
+        "DateTime": "2017-10-08 19:07",
+        "Milk Temperature": "8.5",
+        "TSS Temperature": "-8.5",
+        "AC Voltage": "210",
+        "Battery Voltage": "34"
+      },
+       {
+        "DeviceId": "mother-dairy-3",
+        "DateTime": "2017-10-08 19:08",
+        "Milk Temperature": "24.5",
+        "TSS Temperature": "5.5",
+        "AC Voltage": "224",
+        "Battery Voltage": "18"
+      },
+       {
+        "DeviceId": "mother-dairy-3",
+        "DateTime": "2017-10-08 19:09",
+        "Milk Temperature": "24.5",
+        "TSS Temperature": "5.5",
+        "AC Voltage": "224",
+        "Battery Voltage": "18"
+      },
+       {
+        "DeviceId": "mother-dairy-3",
+        "DateTime": "2017-10-08 19:38",
+        "Milk Temperature": "24.5",
+        "TSS Temperature": "5.5",
+        "AC Voltage": "224",
+        "Battery Voltage": "18"
+      },
+      {
+        "DeviceId": "mother-dairy-3",
+        "DateTime": "2017-10-08 20:39",
+        "Milk Temperature": "4.5",
+        "TSS Temperature": "-3.9",
+        "AC Voltage": "222",
+        "Battery Voltage": "0"
+      },
+      {
+        "DeviceId": "mother-dairy-3",
+        "DateTime": "2017-10-08 20:40",
+        "Milk Temperature": "4.5",
+        "TSS Temperature": "-3.9",
+        "AC Voltage": "222",
+        "Battery Voltage": "0"
+      },
+      {
+        "DeviceId": "mother-dairy-3",
+        "DateTime": "2017-10-08 20:41",
+        "Milk Temperature": "4.5",
+        "TSS Temperature": "-3.9",
+        "AC Voltage": "222",
+        "Battery Voltage": "0"
+      },
+      {
+        "DeviceId": "mother-dairy-3",
+        "DateTime": "2017-10-08 20:42",
+        "Milk Temperature": "4.5",
+        "TSS Temperature": "-3.9",
+        "AC Voltage": "222",
+        "Battery Voltage": "0"
+      },
+      {
+        "DeviceId": "mother-dairy-3",
+        "DateTime": "2017-10-08 20:43",
+        "Milk Temperature": "4.5",
+        "TSS Temperature": "-3.9",
+        "AC Voltage": "222",
+        "Battery Voltage": "0"
+      },
+      {
+        "DeviceId": "mother-dairy-3",
+        "DateTime": "2017-10-08 20:44",
+        "Milk Temperature": "4.5",
+        "TSS Temperature": "-3.9",
+        "AC Voltage": "222",
+        "Battery Voltage": "0"
+      },
+      {
+        "DeviceId": "mother-dairy-3",
+        "DateTime": "2017-10-08 20:45",
+        "Milk Temperature": "2.5",
+        "TSS Temperature": "-6.9",
+        "AC Voltage": "-",
+        "Battery Voltage": "-"
+      },
+      {
+        "DeviceId": "mother-dairy-3",
+        "DateTime": "2017-10-08 20:46",
+        "Milk Temperature": "22.5",
+        "TSS Temperature": "2.9",
+        "AC Voltage": "250",
+        "Battery Voltage": "20"
+      },
+      {
+        "DeviceId": "mother-dairy-3",
+        "DateTime": "2017-10-08 20:47",
+        "Milk Temperature": "4.5",
+        "TSS Temperature": "-3.9",
+        "AC Voltage": "222",
+        "Battery Voltage": "0"
+      },
+      {
+        "DeviceId": "mother-dairy-3",
+        "DateTime": "2017-10-08 20:48",
+        "Milk Temperature": "4.5",
+        "TSS Temperature": "-3.9",
+        "AC Voltage": "222",
+        "Battery Voltage": "0"
+      },
+      {
+        "DeviceId": "mother-dairy-3",
+        "DateTime": "2017-10-08 20:49",
+        "Milk Temperature": "4.5",
+        "TSS Temperature": "-3.9",
+        "AC Voltage": "222",
+        "Battery Voltage": "0"
+      },
+      {
+        "DeviceId": "mother-dairy-3",
+        "DateTime": "2017-10-08 20:50",
+        "Milk Temperature": "4.5",
+        "TSS Temperature": "-3.9",
+        "AC Voltage": "222",
+        "Battery Voltage": "0"
+      },
+      {
+        "DeviceId": "mother-dairy-3",
+        "DateTime": "2017-10-08 20:51",
+        "Milk Temperature": "4.5",
+        "TSS Temperature": "-3.9",
+        "AC Voltage": "222",
+        "Battery Voltage": "0"
+      },
+      {
+        "DeviceId": "mother-dairy-3",
+        "DateTime": "2017-10-08 20:52",
+        "Milk Temperature": "4.5",
+        "TSS Temperature": "-3.9",
+        "AC Voltage": "222",
+        "Battery Voltage": "0"
+      },
+      {
+        "DeviceId": "mother-dairy-3",
+        "DateTime": "2017-10-08 20:53",
+        "Milk Temperature": "4.5",
+        "TSS Temperature": "-3.9",
+        "AC Voltage": "222",
+        "Battery Voltage": "0"
+      },
+      {
+        "DeviceId": "mother-dairy-3",
+        "DateTime": "2017-10-08 20:54",
+        "Milk Temperature": "4.5",
+        "TSS Temperature": "-3.9",
+        "AC Voltage": "222",
+        "Battery Voltage": "0"
+      },
+      {
+        "DeviceId": "mother-dairy-3",
+        "DateTime": "2017-10-08 20:55",
+        "Milk Temperature": "4.5",
+        "TSS Temperature": "-3.9",
+        "AC Voltage": "222",
+        "Battery Voltage": "0"
+      },
+      {
+        "DeviceId": "mother-dairy-3",
+        "DateTime": "2017-10-08 20:56",
+        "Milk Temperature": "4.5",
+        "TSS Temperature": "-3.9",
+        "AC Voltage": "222",
+        "Battery Voltage": "0"
+      },
+      {
+        "DeviceId": "mother-dairy-3",
+        "DateTime": "2017-10-08 20:57",
+        "Milk Temperature": "4.5",
+        "TSS Temperature": "-3.9",
+        "AC Voltage": "222",
+        "Battery Voltage": "0"
+      },
+       {
+        "DeviceId": "mother-dairy-3",
+        "DateTime": "2017-10-08 20:58",
+        "Milk Temperature": "2.5",
+        "TSS Temperature": "-4.5",
+        "AC Voltage": "256",
+        "Battery Voltage": "0"
+      },
+       {
+        "DeviceId": "mother-dairy-3",
+        "DateTime": "2017-10-08 20:59",
+        "Milk Temperature": "2.5",
+        "TSS Temperature": "-4.5",
+        "AC Voltage": "256",
+        "Battery Voltage": "0"
+      },
+       {
+        "DeviceId": "mother-dairy-3",
+        "DateTime": "2017-10-08 21:00",
+        "Milk Temperature": "2.5",
+        "TSS Temperature": "-4.5",
+        "AC Voltage": "256",
+        "Battery Voltage": "0"
+      },
+       {
+        "DeviceId": "mother-dairy-3",
+        "DateTime": "2017-10-08 21:01",
+        "Milk Temperature": "2.5",
+        "TSS Temperature": "-4.5",
+        "AC Voltage": "256",
+        "Battery Voltage": "0"
+      },
+       {
+        "DeviceId": "mother-dairy-3",
+        "DateTime": "2017-10-08 21:02",
+        "Milk Temperature": "7.5",
+        "TSS Temperature": "-2.5",
+        "AC Voltage": "0",
+        "Battery Voltage": "19"
+      },
+       {
+        "DeviceId": "mother-dairy-3",
+        "DateTime": "2017-10-08 21:03",
+        "Milk Temperature": "8",
+        "TSS Temperature": "3",
+        "AC Voltage": "-",
+        "Battery Voltage": "18"
+      },
+       {
+        "DeviceId": "mother-dairy-3",
+        "DateTime": "2017-10-08 21:04",
+        "Milk Temperature": "-",
+        "TSS Temperature": "-4",
+        "AC Voltage": "250",
+        "Battery Voltage": "22"
+      },
+       {
+        "DeviceId": "mother-dairy-3",
+        "DateTime": "2017-10-08 21:05",
+        "Milk Temperature": "32",
+        "TSS Temperature": "-1",
+        "AC Voltage": "233",
+        "Battery Voltage": "-"
+      },
+       {
+        "DeviceId": "mother-dairy-3",
+        "DateTime": "2017-10-08 21:06",
+        "Milk Temperature": "6.5",
+        "TSS Temperature": "-1.8",
+        "AC Voltage": "240",
+        "Battery Voltage": "10"
+      },
+       {
+        "DeviceId": "mother-dairy-3",
+        "DateTime": "2017-10-08 21:07",
+        "Milk Temperature": "8.5",
+        "TSS Temperature": "-8.5",
+        "AC Voltage": "210",
+        "Battery Voltage": "34"
+      },
+       {
+        "DeviceId": "mother-dairy-3",
+        "DateTime": "2017-10-08 21:08",
+        "Milk Temperature": "24.5",
+        "TSS Temperature": "5.5",
+        "AC Voltage": "224",
+        "Battery Voltage": "18"
+      },
+       {
+        "DeviceId": "mother-dairy-3",
+        "DateTime": "2017-10-08 21:09",
+        "Milk Temperature": "24.5",
+        "TSS Temperature": "5.5",
+        "AC Voltage": "224",
+        "Battery Voltage": "18"
+      },
+       {
+        "DeviceId": "mother-dairy-3",
+        "DateTime": "2017-10-08 21:38",
+        "Milk Temperature": "24.5",
+        "TSS Temperature": "5.5",
+        "AC Voltage": "224",
+        "Battery Voltage": "18"
+      },
+      {
+        "DeviceId": "mother-dairy-3",
+        "DateTime": "2017-10-08 22:39",
+        "Milk Temperature": "4.5",
+        "TSS Temperature": "-3.9",
+        "AC Voltage": "222",
+        "Battery Voltage": "0"
+      },
+      {
+        "DeviceId": "mother-dairy-3",
+        "DateTime": "2017-10-08 22:40",
+        "Milk Temperature": "4.5",
+        "TSS Temperature": "-3.9",
+        "AC Voltage": "222",
+        "Battery Voltage": "0"
+      },
+      {
+        "DeviceId": "mother-dairy-3",
+        "DateTime": "2017-10-08 22:41",
+        "Milk Temperature": "4.5",
+        "TSS Temperature": "-3.9",
+        "AC Voltage": "222",
+        "Battery Voltage": "0"
+      },
+      {
+        "DeviceId": "mother-dairy-3",
+        "DateTime": "2017-10-08 22:42",
+        "Milk Temperature": "4.5",
+        "TSS Temperature": "-3.9",
+        "AC Voltage": "222",
+        "Battery Voltage": "0"
+      },
+      {
+        "DeviceId": "mother-dairy-3",
+        "DateTime": "2017-10-08 22:43",
+        "Milk Temperature": "4.5",
+        "TSS Temperature": "-3.9",
+        "AC Voltage": "222",
+        "Battery Voltage": "0"
+      },
+      {
+        "DeviceId": "mother-dairy-3",
+        "DateTime": "2017-10-08 22:44",
+        "Milk Temperature": "4.5",
+        "TSS Temperature": "-3.9",
+        "AC Voltage": "222",
+        "Battery Voltage": "0"
+      },
+      {
+        "DeviceId": "mother-dairy-3",
+        "DateTime": "2017-10-08 22:45",
+        "Milk Temperature": "2.5",
+        "TSS Temperature": "-6.9",
+        "AC Voltage": "-",
+        "Battery Voltage": "-"
+      },
+      {
+        "DeviceId": "mother-dairy-3",
+        "DateTime": "2017-10-08 22:46",
+        "Milk Temperature": "22.5",
+        "TSS Temperature": "2.9",
+        "AC Voltage": "250",
+        "Battery Voltage": "20"
+      },
+      {
+        "DeviceId": "mother-dairy-3",
+        "DateTime": "2017-10-08 22:47",
+        "Milk Temperature": "4.5",
+        "TSS Temperature": "-3.9",
+        "AC Voltage": "222",
+        "Battery Voltage": "0"
+      },
+      {
+        "DeviceId": "mother-dairy-3",
+        "DateTime": "2017-10-08 22:48",
+        "Milk Temperature": "4.5",
+        "TSS Temperature": "-3.9",
+        "AC Voltage": "222",
+        "Battery Voltage": "0"
+      },
+      {
+        "DeviceId": "mother-dairy-3",
+        "DateTime": "2017-10-08 22:49",
+        "Milk Temperature": "4.5",
+        "TSS Temperature": "-3.9",
+        "AC Voltage": "222",
+        "Battery Voltage": "0"
+      },
+      {
+        "DeviceId": "mother-dairy-3",
+        "DateTime": "2017-10-08 22:50",
+        "Milk Temperature": "4.5",
+        "TSS Temperature": "-3.9",
+        "AC Voltage": "222",
+        "Battery Voltage": "0"
+      },
+      {
+        "DeviceId": "mother-dairy-3",
+        "DateTime": "2017-10-08 22:51",
+        "Milk Temperature": "4.5",
+        "TSS Temperature": "-3.9",
+        "AC Voltage": "222",
+        "Battery Voltage": "0"
+      },
+      {
+        "DeviceId": "mother-dairy-3",
+        "DateTime": "2017-10-08 22:52",
+        "Milk Temperature": "4.5",
+        "TSS Temperature": "-3.9",
+        "AC Voltage": "222",
+        "Battery Voltage": "0"
+      },
+      {
+        "DeviceId": "mother-dairy-3",
+        "DateTime": "2017-10-08 22:53",
+        "Milk Temperature": "4.5",
+        "TSS Temperature": "-3.9",
+        "AC Voltage": "222",
+        "Battery Voltage": "0"
+      },
+      {
+        "DeviceId": "mother-dairy-3",
+        "DateTime": "2017-10-08 22:54",
+        "Milk Temperature": "4.5",
+        "TSS Temperature": "-3.9",
+        "AC Voltage": "222",
+        "Battery Voltage": "0"
+      },
+      {
+        "DeviceId": "mother-dairy-3",
+        "DateTime": "2017-10-08 22:55",
+        "Milk Temperature": "4.5",
+        "TSS Temperature": "-3.9",
+        "AC Voltage": "222",
+        "Battery Voltage": "0"
+      },
+      {
+        "DeviceId": "mother-dairy-3",
+        "DateTime": "2017-10-08 22:56",
+        "Milk Temperature": "4.5",
+        "TSS Temperature": "-3.9",
+        "AC Voltage": "222",
+        "Battery Voltage": "0"
+      },
+      {
+        "DeviceId": "mother-dairy-3",
+        "DateTime": "2017-10-08 22:57",
+        "Milk Temperature": "4.5",
+        "TSS Temperature": "-3.9",
+        "AC Voltage": "222",
+        "Battery Voltage": "0"
+      },
+       {
+        "DeviceId": "mother-dairy-3",
+        "DateTime": "2017-10-08 22:58",
+        "Milk Temperature": "2.5",
+        "TSS Temperature": "-4.5",
+        "AC Voltage": "256",
+        "Battery Voltage": "0"
+      },
+       {
+        "DeviceId": "mother-dairy-3",
+        "DateTime": "2017-10-08 22:59",
+        "Milk Temperature": "2.5",
+        "TSS Temperature": "-4.5",
+        "AC Voltage": "256",
+        "Battery Voltage": "0"
+      },
+       {
+        "DeviceId": "mother-dairy-3",
+        "DateTime": "2017-10-08 23:00",
+        "Milk Temperature": "2.5",
+        "TSS Temperature": "-4.5",
+        "AC Voltage": "256",
+        "Battery Voltage": "0"
+      },
+       {
+        "DeviceId": "mother-dairy-3",
+        "DateTime": "2017-10-08 23:01",
+        "Milk Temperature": "2.5",
+        "TSS Temperature": "-4.5",
+        "AC Voltage": "256",
+        "Battery Voltage": "0"
+      },
+       {
+        "DeviceId": "mother-dairy-3",
+        "DateTime": "2017-10-08 23:02",
+        "Milk Temperature": "7.5",
+        "TSS Temperature": "-2.5",
+        "AC Voltage": "0",
+        "Battery Voltage": "19"
+      },
+       {
+        "DeviceId": "mother-dairy-3",
+        "DateTime": "2017-10-08 23:03",
+        "Milk Temperature": "8",
+        "TSS Temperature": "3",
+        "AC Voltage": "-",
+        "Battery Voltage": "18"
+      },
+       {
+        "DeviceId": "mother-dairy-3",
+        "DateTime": "2017-10-08 23:04",
+        "Milk Temperature": "-",
+        "TSS Temperature": "-4",
+        "AC Voltage": "250",
+        "Battery Voltage": "22"
+      },
+       {
+        "DeviceId": "mother-dairy-3",
+        "DateTime": "2017-10-08 23:05",
+        "Milk Temperature": "32",
+        "TSS Temperature": "-1",
+        "AC Voltage": "233",
+        "Battery Voltage": "-"
+      },
+       {
+        "DeviceId": "mother-dairy-3",
+        "DateTime": "2017-10-08 23:06",
+        "Milk Temperature": "6.5",
+        "TSS Temperature": "-1.8",
+        "AC Voltage": "240",
+        "Battery Voltage": "10"
+      },
+       {
+        "DeviceId": "mother-dairy-3",
+        "DateTime": "2017-10-08 23:07",
+        "Milk Temperature": "8.5",
+        "TSS Temperature": "-8.5",
+        "AC Voltage": "210",
+        "Battery Voltage": "34"
+      },
+       {
+        "DeviceId": "mother-dairy-3",
+        "DateTime": "2017-10-08 23:08",
+        "Milk Temperature": "24.5",
+        "TSS Temperature": "5.5",
+        "AC Voltage": "224",
+        "Battery Voltage": "18"
+      },
+       {
+        "DeviceId": "mother-dairy-3",
+        "DateTime": "2017-10-08 23:09",
+        "Milk Temperature": "24.5",
+        "TSS Temperature": "5.5",
+        "AC Voltage": "224",
+        "Battery Voltage": "18"
+      },
+       {
+        "DeviceId": "mother-dairy-3",
+        "DateTime": "2017-10-08 23:38",
+        "Milk Temperature": "24.5",
+        "TSS Temperature": "5.5",
+        "AC Voltage": "224",
+        "Battery Voltage": "18"
+      },
+      {
+        "DeviceId": "mother-dairy-3",
+        "DateTime": "2017-10-08 25:39",
+        "Milk Temperature": "4.5",
+        "TSS Temperature": "-3.9",
+        "AC Voltage": "222",
+        "Battery Voltage": "0"
+      },
+      {
+        "DeviceId": "mother-dairy-3",
+        "DateTime": "2017-10-08 25:40",
+        "Milk Temperature": "4.5",
+        "TSS Temperature": "-3.9",
+        "AC Voltage": "222",
+        "Battery Voltage": "0"
+      },
+      {
+        "DeviceId": "mother-dairy-3",
+        "DateTime": "2017-10-08 25:41",
+        "Milk Temperature": "4.5",
+        "TSS Temperature": "-3.9",
+        "AC Voltage": "222",
+        "Battery Voltage": "0"
+      },
+      {
+        "DeviceId": "mother-dairy-3",
+        "DateTime": "2017-10-08 25:42",
+        "Milk Temperature": "4.5",
+        "TSS Temperature": "-3.9",
+        "AC Voltage": "222",
+        "Battery Voltage": "0"
+      },
+      {
+        "DeviceId": "mother-dairy-3",
+        "DateTime": "2017-10-08 25:43",
+        "Milk Temperature": "4.5",
+        "TSS Temperature": "-3.9",
+        "AC Voltage": "222",
+        "Battery Voltage": "0"
+      },
+      {
+        "DeviceId": "mother-dairy-3",
+        "DateTime": "2017-10-08 25:44",
+        "Milk Temperature": "4.5",
+        "TSS Temperature": "-3.9",
+        "AC Voltage": "222",
+        "Battery Voltage": "0"
+      },
+      {
+        "DeviceId": "mother-dairy-3",
+        "DateTime": "2017-10-08 25:45",
+        "Milk Temperature": "2.5",
+        "TSS Temperature": "-6.9",
+        "AC Voltage": "-",
+        "Battery Voltage": "-"
+      },
+      {
+        "DeviceId": "mother-dairy-3",
+        "DateTime": "2017-10-08 25:46",
+        "Milk Temperature": "22.5",
+        "TSS Temperature": "2.9",
+        "AC Voltage": "250",
+        "Battery Voltage": "20"
+      },
+      {
+        "DeviceId": "mother-dairy-3",
+        "DateTime": "2017-10-08 25:47",
+        "Milk Temperature": "4.5",
+        "TSS Temperature": "-3.9",
+        "AC Voltage": "222",
+        "Battery Voltage": "0"
+      },
+      {
+        "DeviceId": "mother-dairy-3",
+        "DateTime": "2017-10-08 25:48",
+        "Milk Temperature": "4.5",
+        "TSS Temperature": "-3.9",
+        "AC Voltage": "222",
+        "Battery Voltage": "0"
+      },
+      {
+        "DeviceId": "mother-dairy-3",
+        "DateTime": "2017-10-08 25:49",
+        "Milk Temperature": "4.5",
+        "TSS Temperature": "-3.9",
+        "AC Voltage": "222",
+        "Battery Voltage": "0"
+      },
+      {
+        "DeviceId": "mother-dairy-3",
+        "DateTime": "2017-10-08 25:50",
+        "Milk Temperature": "4.5",
+        "TSS Temperature": "-3.9",
+        "AC Voltage": "222",
+        "Battery Voltage": "0"
+      },
+      {
+        "DeviceId": "mother-dairy-3",
+        "DateTime": "2017-10-08 25:51",
+        "Milk Temperature": "4.5",
+        "TSS Temperature": "-3.9",
+        "AC Voltage": "222",
+        "Battery Voltage": "0"
+      },
+      {
+        "DeviceId": "mother-dairy-3",
+        "DateTime": "2017-10-08 25:52",
+        "Milk Temperature": "4.5",
+        "TSS Temperature": "-3.9",
+        "AC Voltage": "222",
+        "Battery Voltage": "0"
+      },
+      {
+        "DeviceId": "mother-dairy-3",
+        "DateTime": "2017-10-08 25:53",
+        "Milk Temperature": "4.5",
+        "TSS Temperature": "-3.9",
+        "AC Voltage": "222",
+        "Battery Voltage": "0"
+      },
+      {
+        "DeviceId": "mother-dairy-3",
+        "DateTime": "2017-10-08 25:54",
+        "Milk Temperature": "4.5",
+        "TSS Temperature": "-3.9",
+        "AC Voltage": "222",
+        "Battery Voltage": "0"
+      },
+      {
+        "DeviceId": "mother-dairy-3",
+        "DateTime": "2017-10-08 25:55",
+        "Milk Temperature": "4.5",
+        "TSS Temperature": "-3.9",
+        "AC Voltage": "222",
+        "Battery Voltage": "0"
+      },
+      {
+        "DeviceId": "mother-dairy-3",
+        "DateTime": "2017-10-08 25:56",
+        "Milk Temperature": "4.5",
+        "TSS Temperature": "-3.9",
+        "AC Voltage": "222",
+        "Battery Voltage": "0"
+      },
+      {
+        "DeviceId": "mother-dairy-3",
+        "DateTime": "2017-10-08 25:57",
+        "Milk Temperature": "4.5",
+        "TSS Temperature": "-3.9",
+        "AC Voltage": "222",
+        "Battery Voltage": "0"
+      },
+       {
+        "DeviceId": "mother-dairy-3",
+        "DateTime": "2017-10-08 25:58",
+        "Milk Temperature": "2.5",
+        "TSS Temperature": "-4.5",
+        "AC Voltage": "256",
+        "Battery Voltage": "0"
+      },
+       {
+        "DeviceId": "mother-dairy-3",
+        "DateTime": "2017-10-08 25:59",
+        "Milk Temperature": "2.5",
+        "TSS Temperature": "-4.5",
+        "AC Voltage": "256",
+        "Battery Voltage": "0"
+      },
+       {
+        "DeviceId": "mother-dairy-3",
+        "DateTime": "2017-10-08 24:00",
+        "Milk Temperature": "2.5",
+        "TSS Temperature": "-4.5",
+        "AC Voltage": "256",
+        "Battery Voltage": "0"
+      },
+       {
+        "DeviceId": "mother-dairy-3",
+        "DateTime": "2017-10-08 24:01",
+        "Milk Temperature": "2.5",
+        "TSS Temperature": "-4.5",
+        "AC Voltage": "256",
+        "Battery Voltage": "0"
+      },
+       {
+        "DeviceId": "mother-dairy-3",
+        "DateTime": "2017-10-08 24:02",
+        "Milk Temperature": "7.5",
+        "TSS Temperature": "-2.5",
+        "AC Voltage": "0",
+        "Battery Voltage": "19"
+      },
+       {
+        "DeviceId": "mother-dairy-3",
+        "DateTime": "2017-10-08 24:03",
+        "Milk Temperature": "8",
+        "TSS Temperature": "3",
+        "AC Voltage": "-",
+        "Battery Voltage": "18"
+      },
+       {
+        "DeviceId": "mother-dairy-3",
+        "DateTime": "2017-10-08 24:04",
+        "Milk Temperature": "-",
+        "TSS Temperature": "-4",
+        "AC Voltage": "250",
+        "Battery Voltage": "22"
+      },
+       {
+        "DeviceId": "mother-dairy-3",
+        "DateTime": "2017-10-08 24:05",
+        "Milk Temperature": "32",
+        "TSS Temperature": "-1",
+        "AC Voltage": "233",
+        "Battery Voltage": "-"
+      },
+       {
+        "DeviceId": "mother-dairy-3",
+        "DateTime": "2017-10-08 24:06",
+        "Milk Temperature": "6.5",
+        "TSS Temperature": "-1.8",
+        "AC Voltage": "240",
+        "Battery Voltage": "10"
+      },
+       {
+        "DeviceId": "mother-dairy-3",
+        "DateTime": "2017-10-08 24:07",
+        "Milk Temperature": "8.5",
+        "TSS Temperature": "-8.5",
+        "AC Voltage": "210",
+        "Battery Voltage": "34"
+      },
+       {
+        "DeviceId": "mother-dairy-3",
+        "DateTime": "2017-10-08 24:08",
+        "Milk Temperature": "24.5",
+        "TSS Temperature": "5.5",
+        "AC Voltage": "224",
+        "Battery Voltage": "18"
+      },
+       {
+        "DeviceId": "mother-dairy-3",
+        "DateTime": "2017-10-08 24:09",
+        "Milk Temperature": "24.5",
+        "TSS Temperature": "5.5",
+        "AC Voltage": "224",
+        "Battery Voltage": "18"
+      },
+       {
+        "DeviceId": "mother-dairy-3",
+        "DateTime": "2017-10-08 24:38",
+        "Milk Temperature": "24.5",
+        "TSS Temperature": "5.5",
+        "AC Voltage": "224",
+        "Battery Voltage": "18"
+      }
+      ]
+  }
+}
