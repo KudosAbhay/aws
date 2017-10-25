@@ -1,10 +1,7 @@
 
 **POST REQUEST** for sending data on topic for AWS IoT Device:
 <br>
-***Topic*** for Publishing Data on AWS IoT using Python SDK:
-<br>
-$aws/things/<THING NAME>/shadow/update
-<br>
+***Topic*** for Publishing Data on AWS IoT using Python SDK: ```$aws/things/<THING NAME>/shadow/update```
 
 ***Syntax*** for Publishing Data on AWS IoT using Python SDK:
 <br>
@@ -36,8 +33,8 @@ $aws/things/<THING NAME>/shadow/update
 **GET REQUEST** for retrieving data on topic for AWS IoT Device:
 <br>
 
-***Topic*** for Retrieving Data on AWS IoT using Python SDK: $aws/things/<THING NAME>/shadow
-<br>
+***Topic*** for Retrieving Data on AWS IoT using Python SDK: ```$aws/things/<THING NAME>/shadow```
+
 
 <b>For Postman</b>:
 <br>
