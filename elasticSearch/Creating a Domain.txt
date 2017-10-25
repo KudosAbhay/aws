@@ -1,0 +1,26 @@
+#To Create an AWS ElasticSearch Policy, use the following link:
+http://docs.aws.amazon.com/ses/latest/DeveloperGuide/event-publishing-elasticsearch-cluster.html
+
+
+#To Read Items from DynamoDB to ElasticSearch, use the following link:
+https://aws.amazon.com/about-aws/whats-new/2015/08/amazon-dynamodb-elasticsearch-integration/
+
+
+#To Create an AWS Cluster, use the following link:
+http://docs.aws.amazon.com/ses/latest/DeveloperGuide/event-publishing-elasticsearch-cluster.html
+
+#To Create a firehose Delivery Stream, use the following link:
+http://docs.aws.amazon.com/ses/latest/DeveloperGuide/event-publishing-elasticsearch-firehose-stream.html
+
+#To Visualize Data in Kibana, use the following link:
+http://docs.aws.amazon.com/ses/latest/DeveloperGuide/event-publishing-elasticsearch-kibana.html
+
+
+#Logstash input for connecting DynamoDB to AWS ElasticSearch is here:
+https://github.com/awslabs/logstash-input-dynamodb
+
+
+
+These links were also referenced:
+https://aws.amazon.com/blogs/compute/indexing-amazon-dynamodb-content-with-amazon-elasticsearch-service-using-aws-lambda/
+https://aws.amazon.com/blogs/database/indexing-metadata-in-amazon-elasticsearch-service-using-aws-lambda-and-python/
