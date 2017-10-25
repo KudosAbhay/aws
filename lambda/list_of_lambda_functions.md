@@ -94,10 +94,10 @@ List of all Lambda Functions currently hosted:
 
 10. **platform_for_testing**
   <br><i><u>Creation Date</u>:</i> 05-Oct-2017
-  <br><i><u>Description</u>:</i> Platform for Testing any function
+  <br><i><u>Description</u>:</i> Platform for Testing any function. Currently testing for returning proper HTTP responses from AWS Lambda
   <br><i><u>Workflow</u>:</i> None
   <br><i><u>IAM ROLE Associated</u>:</i> 'Admin-Role'
   <br><i><u>Tiggers</u>:</i> None
   <br><i><u>Actions</u>:</i> None
-  <br><i><u>Last Updated Status</u>:</i> 18-Oct-2017
+  <br><i><u>Last Updated Status</u>:</i> 25-Oct-2017
   <br><i><u>Working Status</u>:</i> Testing Phase
