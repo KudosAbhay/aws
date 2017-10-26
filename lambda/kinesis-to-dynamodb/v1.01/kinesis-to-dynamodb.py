@@ -8,14 +8,19 @@ print('Loading function')
 dynamo = boto3.resource('dynamodb').Table('Shadow-Kinesis-Lambda-DynamoDB')
 
 
-'''
-Usage:
-This function can parse data received from kinesis stream to store it in dynamoDB
+'''Usage:
+(This is done for Our Sample Data)
+->AWS IoT Device Shadow Update
+    -> Data passed to kinesis using AWS IoT Rule
+        -> Lambda Function Triggered on kinesis-stream receiving latest entry
+            -> Write entry to dynamoDB table
 
-How it Works:
+Complete Code Usage is inspired from this blog: 'https://aws.amazon.com/blogs/big-data/build-a-visualization-and-monitoring-dashboard-for-iot-data-with-amazon-kinesis-analytics-and-amazon-quicksight/'
+
+Flow of working:
 This Lambda function is triggered, when, kinesis stream named 'stream-for-iot' receives latest data
-This kinesis stream is triggered, when, aws iot rule named 'MyKinesisRule' receives latest entry from device by running SQL statement: "SELECT * FROM '/sbs/devicedata/#'"
-Code for posting data to aws iot under that topic is downloaded from : "https://github.com/awslabs/sbs-iot-data-generator/blob/master/sbs.py"
+This kinesis stream is triggered, when, aws iot rule named 'MyKinesisRule' receives latest entry from device by running SQL statement: 'SELECT * FROM '$aws/things/RaspberryPi/shadow/update'
+Code for posting data to aws iot under that topic is downloaded from : 'https://github.com/awslabs/sbs-iot-data-generator/blob/master/sbs.py'
 
 This function's overall working is as follows:
 1. Read data from 'Kinesis Stream'
