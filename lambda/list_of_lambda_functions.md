@@ -42,15 +42,15 @@ List of all Lambda Functions currently hosted:
   <br><i><u>Last Updated Status</u>:</i> 08-Oct-2017
   <br><i><u>Working Status</u>:</i> Working
 
-5. **lambda-kinesis**
-  <br><i><u>Creation Date</u>:</i> 02-Oct-2017
-  <br><i><u>Description</u>:</i> Platform for testing Lambda to Kinesis connection
-  <br><i><u>Workflow</u>:</i> When handler() is Triggered, it tries to put records in kinesis stream, then tries to describe the stream, then gets shard_iterator of the stream, then tries to get records from the stream.
+5. **kinesis-to-dynamodb**
+  <br><i><u>Creation Date</u>:</i> 26-Oct-2017
+  <br><i><u>Description</u>:</i> IoT Shadow Update -> Kinesis -> Lambda -> DynamoDB
+  <br><i><u>Workflow</u>:</i> When handler() is Triggered, it tries to parse a record received from kinesis stream, then tries to create a new payload to insert that data in dynamodb, then tries to put record in dynamoDB table.
   <br><i><u>IAM ROLE Associated</u>:</i> 'Admin-Role'
-  <br><i><u>Tiggers</u>:</i> None
-  <br><i><u>Actions</u>:</i> Kinesis
-  <br><i><u>Last Updated Status</u>:</i> 06-Oct-2017
-  <br><i><u>Working Status</u>:</i> Describing Stream, Getting Shard Iterator, Shard Id is working. Inserting and Retrieving Data from Stream is not yet working.
+  <br><i><u>Tiggers</u>:</i> kinesis: stream-for-iot
+  <br><i><u>Actions</u>:</i> DynamoDB
+  <br><i><u>Last Updated Status</u>:</i> 26-Oct-2017
+  <br><i><u>Working Status</u>:</i> Lambda Function is triggered by kinesis-stream after receiving latest entry. This entry is then written into a dynamoDB table
 
 6. **hello-world-python**
   <br><i><u>Creation Date</u>:</i>15-Sep-2017
