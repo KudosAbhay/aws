@@ -10,16 +10,25 @@ dynamo = boto3.resource('dynamodb').Table('IoT_Table')
 
 
 '''
+Usage:
+(This is done for sample data referenced from: 'https://github.com/awslabs/sbs-iot-data-generator/blob/master/sbs.py')
+->AWS IoT Device Shadow Update
+    -> Data passed to kinesis using AWS IoT Rule
+        -> Lambda Function Triggered on kinesis-stream receiving latest entry
+            -> Write entry to dynamoDB table
+
+Complete Code Usage is inspired from this blog: 'https://aws.amazon.com/blogs/big-data/build-a-visualization-and-monitoring-dashboard-for-iot-data-with-amazon-kinesis-analytics-and-amazon-quicksight/'
+
 This is a testing purpose function for inserting incoming data from aws iot to aws dynamoDB
 This Lambda function is triggered, when, kinesis stream named 'stream-for-iot' receives latest data
-This kinesis stream is triggered, when, aws iot rule named 'MyKinesisRule' receives latest entry from device by running SQL statement: "SELECT * FROM '/sbs/devicedata/#'"
-Code for posting data to aws iot under that topic is downloaded from : "https://github.com/awslabs/sbs-iot-data-generator/blob/master/sbs.py"
+This kinesis stream is triggered, when, aws iot rule named 'MyKinesisRule' receives latest entry from device by running SQL statement: 'SELECT * FROM '/sbs/devicedata/#''
 
 This function's working is as follows:
 1. Read data from 'Kinesis Stream'
-2. Decode the 'payload' from the incoming kinesis stream
-3. Convert that 'payload' to 'Item'-based payload for inserting it into DynamoDB
-4. Insert the Record in DynamoDB in individual columns
+2. This is a sample of received payload from kinesis stream: {"deviceParameter": "Sound", "deviceValue": 106, "deviceId": "SBS05", "dateTime": "2017-10-26 12:34:42"}
+3. Decode the 'payload' from the incoming kinesis stream
+4. Convert that 'payload' to 'Item'-oriented payload for inserting it into DynamoDB
+5. Insert the Record in DynamoDB in individual columns
 
 '''
 
@@ -59,11 +68,5 @@ def lambda_handler(event, context):
         print(a['stack'][0])
 
         response = operations['create'](a['stack'][0])
-        return response
-
-    '''
-    This is the type of received payload from kinesis stream
-    {"deviceParameter": "Sound", "deviceValue": 106, "deviceId": "SBS05", "dateTime": "2017-10-26 12:34:42"}
-    '''
-
+    return response
     #return 'Successfully processed {} records.'.format(len(event['Records']))
