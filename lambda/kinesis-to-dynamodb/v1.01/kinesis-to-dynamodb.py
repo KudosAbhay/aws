@@ -35,6 +35,25 @@ Core working of this function:
 4.  Incoming Stream record from kinesis is decoded and loaded in json format
 4.  Values from this json are loaded in 'Item'-oriented json payload for inserting in DynamoDB
 5.  This new payload formed is inserted in DynamoDB table (which is mentioned in first point)
+
+
+Actual payload received on AWS IoT Shadow:
+{
+  "desired": {
+    "Battery Temperature": -5,
+    "Milk Temperature": 20,
+    "DeviceId": "Device5",
+    "DateTime": "2017-10-26 16:00:29"
+  },
+  "reported": {
+    "Item": {
+      "Battery Temperature": -5,
+      "Milk Temperature": 20,
+      "DeviceId": "Device5",
+      "DateTime": "2017-10-26 16:00:29"
+    }
+  }
+}
 '''
 
 def handler(event, context):
