@@ -11,3 +11,6 @@
 
 4.  <b>Setting up a static website using a custom domain</b>:
 <br>http://docs.aws.amazon.com/AmazonS3/latest/dev/website-hosting-custom-domain-walkthrough.html
+
+5.  <b>Building Serverless Website (Lambda - DynamoDB -S3 -API Endpoint)</b>:
+<br>https://sanderknape.com/2017/05/building-a-serverless-website-in-aws/
