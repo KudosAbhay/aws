@@ -6,7 +6,6 @@ import time
 from botocore.exceptions import ClientError
 client1 = boto3.client('dynamodb')
 
-
 #This file development is progressed since 13-October 2017
 #This is Integration between Device1-Lambda and platform_for_testing functions
 #What's Changed: Payload Syntax will change
