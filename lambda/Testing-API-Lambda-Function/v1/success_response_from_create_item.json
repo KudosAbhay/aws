@@ -1,0 +1,23 @@
+{
+  'ConsumedCapacity':
+  {
+    'TableName': 'Virginia-Table',
+    'CapacityUnits': 1.0
+  },
+  'ResponseMetadata':
+  {
+    'RequestId': '9AUR1237S3PBETC0PETPLS6NV3VV4KQNSO5AEMVJF66Q9ASUAAJG',
+    'HTTPStatusCode': 200,
+    'HTTPHeaders':
+    {
+      'server': 'Server',
+      'date': 'Mon, 30 Oct 2017 06:54:10 GMT',
+      'content-type': 'application/x-amz-json-1.0',
+      'content-length': '71',
+      'connection': 'keep-alive',
+      'x-amzn-requestid': '9AUR1237S3PBETC0PETPLS6NV3VV4KQNSO5AEMVJF66Q9ASUAAJG',
+      'x-amz-crc32': '2977790133'
+    },
+    'RetryAttempts': 0
+  }
+}

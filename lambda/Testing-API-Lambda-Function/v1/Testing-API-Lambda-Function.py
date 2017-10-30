@@ -6,87 +6,55 @@ import time
 from botocore.exceptions import ClientError
 
 #This file contains customized responses for Client Side
-#Creation Date: 09-October-2017
+#This is created on 29-September 2017
 #This is meant to parse multiple payloads received in one json response
-#Latest Changes: Increased Timeout from 12 Seconds to 239 seconds
-
-'''
-CREATE Request:
-{
-  "operation": "create",
-  "tableName": "Mother-Dairy 1-Table",
-  "payload": {
-    "Items": [
-      {
-        "DeviceId": "Mother-Dairy 1",
-        "DateTime": "2017-10-08 19:38",
-        "Milk Temperature": "24.5",
-        "TSS Temperature": "5.5",
-        "AC Voltage": "224",
-        "Battery Voltage": "18"
-      },
-      {
-        "DeviceId": "Mother-Dairy 1",
-        "DateTime": "2017-10-08 19:39",
-        "Milk Temperature": "24.5",
-        "TSS Temperature": "5.5",
-        "AC Voltage": "224",
-        "Battery Voltage": "18"
-      }
-    ]
-  }
-}
-
-
-READ Request:
-{
-  "operation": "read",
-  "tableName": "Cavinkare-Perundurai-Table",
-  "payload": {
-    "Key": {
-      "DeviceId": "Cavinkare-Perundurai",
-      "DateTime": "2017-09-27 15:37"
-    }
-  }
-}
-'''
+#What's pending:
+# 1. Sending 'Created Entry' response only after checking actual response whether it contains an HTTPStatusCode: 200 within
+# 1. Reduction of many if-else
+# 2. Reduction of many try catch blocks
+# 3. Handling 'None' Values from incoming json data
 
 client1 = boto3.client('dynamodb')
 
 def create_Table_In_DynamoDB(passed_event, passed_tableName):
     print("passed_event in create_Table_In_DynamoDB:\n{}".format(passed_event))
-    response = client1.create_table(
+    try:
+        response = client1.create_table(
         AttributeDefinitions=[
-            {
-                'AttributeName': 'DeviceId',
-                'AttributeType': 'S'
+                {
+                    'AttributeName': 'DeviceId',
+                    'AttributeType': 'S'
+                },
+                {
+                    'AttributeName': 'DateTime',
+                    'AttributeType': 'S'
+                },
+            ],
+            TableName= passed_tableName,
+            KeySchema=[
+                {
+                    'AttributeName': 'DeviceId',
+                    'KeyType': 'HASH'
+                },
+                {
+                    'AttributeName': 'DateTime',
+                    'KeyType': 'RANGE'
+                },
+            ],
+            ProvisionedThroughput={
+                'ReadCapacityUnits': 5,
+                'WriteCapacityUnits': 5
             },
-            {
-                'AttributeName': 'DateTime',
-                'AttributeType': 'S'
-            },
-        ],
-        TableName= passed_tableName,
-        KeySchema=[
-            {
-                'AttributeName': 'DeviceId',
-                'KeyType': 'HASH'
-            },
-            {
-                'AttributeName': 'DateTime',
-                'KeyType': 'RANGE'
-            },
-        ],
-        ProvisionedThroughput={
-            'ReadCapacityUnits': 5,
-            'WriteCapacityUnits': 5
-        },
-        StreamSpecification={
-            'StreamEnabled': True,
-            'StreamViewType': 'NEW_AND_OLD_IMAGES'
-        }
-    )
-    return response
+            StreamSpecification={
+                'StreamEnabled': True,
+                'StreamViewType': 'NEW_AND_OLD_IMAGES'
+            }
+        )
+        return response
+    except ClientError as r:
+        if r.response['Error']['Code'] == 'ResourceInUseException':
+            time.sleep(2)
+            return "Table is either being used by other resource or getting created"
     #create_Table_In_DynamoDB ends here
 
 
@@ -144,7 +112,8 @@ def create_Item_In_DynamoDB_Table(passed_event, passed_tableName):
         return response
     except ClientError as r:
         if r.response['Error']['Code'] == 'ResourceNotFoundException':
-            return "Creating Table. Please try uploading data after few seconds"
+            time.sleep(2)
+            return "Creating Item failed as ResourceNotFoundException is hit"
     #create_Item_In_DynamoDB_Table ends here
 
 
@@ -296,13 +265,15 @@ def create_method_handler(received_event, complete_event):
             print("\nLoop Number {}\n for Values:\n {}".format(i, received_event[i]))
             flag, response = get_Latest_Item_From_DynamoDB_Table(received_event[i]['DeviceId'], received_event[i]['DateTime'], complete_event['tableName'])
             print("Value of Flag after get_Latest_Item_From_DynamoDB_Table:\t{}".format(flag))
-            print("response from get_Latest_Item_From_DynamoDB_Table in create_method_handler:\n{}".format(response))
+            print("response from get_Latest_Item_From_DynamoDB_Table in create_method_handler: {}".format(response))
             if response == 'TableNotFoundException':
                 #Create New Table if Table is not found
                 print("\nTable is not found.\nWill Create new Table")
                 set_confirmation = create_Table_In_DynamoDB(received_event[i], complete_event['tableName'])
-                time.sleep(10)
+                print("Response from create_Table_In_DynamoDB:\n{}\n".format(set_confirmation))
+                time.sleep(4)
                 set_confirmation = create_Item_In_DynamoDB_Table(received_event[i], complete_event['tableName'])
+                print("Response from create_Item_In_DynamoDB_Table:\n{}\n".format(set_confirmation))
                 response_to_sent[i] =  "Created New Entry" #set_confirmation['ResponseMetadata']
             if flag == 1:
                 #Duplicate Entry found
@@ -310,6 +281,7 @@ def create_method_handler(received_event, complete_event):
                 final_payload_to_update = handling_duplicate_entries(received_event, response, i)
                 print("\nfinal_payload_to_update is:\n{}".format(final_payload_to_update))
                 set_confirmation = update_Item_in_DynamoDB_Table(final_payload_to_update, complete_event['tableName'])
+                print("Response from update_Item_in_DynamoDB_Table:\n{}\n".format(set_confirmation))
                 #return set_confirmation
                 response_to_sent[i] = "Updated Entry" #set_confirmation['ResponseMetadata']
                 #return ("Successfully Updated Entry.{}".format(set_confirmation['ResponseMetadata']))
@@ -317,6 +289,7 @@ def create_method_handler(received_event, complete_event):
                 #Duplicate Entry is not found. But Table exists
                 print("Table found. But entry not found. Will create new Entry")
                 set_confirmation = create_Item_In_DynamoDB_Table(received_event[i], complete_event['tableName'])
+                print("Response from create_Item_In_DynamoDB_Table:\n{}\n".format(set_confirmation))
                 response_to_sent[i] =  "Created New Entry" #set_confirmation['ResponseMetadata']
                 #return ("New Entry Successfully Added.{}".format(set_confirmation['ResponseMetadata']))
     response_to_sent = json.dumps(response_to_sent)
