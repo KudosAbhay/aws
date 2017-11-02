@@ -24,6 +24,8 @@ CodeStar automatically creates the following resources and helps you manage them
 
 
 Pricing for Individual Resources is as follows:
+<br>
+
 
 |Sr. No.| Resource Name     | Pricing |
 | ---      | ---       |
