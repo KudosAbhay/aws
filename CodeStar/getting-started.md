@@ -28,7 +28,7 @@ Pricing for Individual Resources is as follows:
 
 
 |Sr. No.| Resource Name     | Pricing |
-| ---      | ---       |
+| ---      | ---       | --- |
 |1| <b>AWS API Gateway</b> | [check here](https://aws.amazon.com/api-gateway/pricing/)  |
 |2| <b>AWS CloudFormation</b>     | [check here](https://aws.amazon.com/cloudformation/pricing/) |
 |3| <b>AWS CodeBuild</b>     | [check here](https://aws.amazon.com/codebuild/pricing/) |
