@@ -18,6 +18,12 @@ client1 = boto3.client('dynamodb')
 #              b. create_item() was added with few lines of code for None-Type Values checking
 # What's Pending?
 # 1. Handling of all missing parameters in payload is pending
+#
+#What's in Progress?
+#1. Handling Read Method i.e. Using only one function instead of two for get_**_from_DynamoDB()
+#   Changes Made Till Now: 1. Changed the get_..() function of read method
+#
+#
 
 '''
 CREATE Request:
@@ -380,7 +386,14 @@ def handler(event, context):
         print("\nThis is the response obtained which will be sent:\n{}".format(response))
         return response
     elif(event['operation'] == 'read'):
-        response = get_Specific_Item_From_DynamoDB_Table(event)
-        return response
+        dynamo = boto3.resource('dynamodb').Table(event['tableName'])
+        x = event.get['payload']
+        #response = get_Specific_Item_From_DynamoDB_Table(event)
+        try:
+            response = dynamo.get_item(**x)
+            return response
+        except ClientError as c:
+            if r.response['Error']['Code'] == 'ResourceNotFoundException':
+                return "ResourceNotFoundException"
     else:
         return "Unexpected operation in json"
