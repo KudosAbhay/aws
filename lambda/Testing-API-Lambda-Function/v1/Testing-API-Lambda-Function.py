@@ -6,7 +6,7 @@ import time
 from botocore.exceptions import ClientError
 client1 = boto3.client('dynamodb')
 
-
+# Version Number: v1.0.3
 # Creation Date: 29-September-2017
 # Updation Date: 03-November-2017
 # Previous completions:
