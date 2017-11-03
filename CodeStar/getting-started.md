@@ -27,4 +27,4 @@ CodeStar automatically creates the following resources and helps you manage them
 <br>
 Our First Pipeline content is available in  <b>'FirstPipeline'</b> folder within the same directory.
 <br>
-It is created by considering <b>'Serverless computing using Lambda Function'</b>
+It is implemented by considering <b>'Serverless computing using Lambda Function'</b>
