@@ -21,3 +21,9 @@ CodeStar automatically creates the following resources and helps you manage them
 |5| <b>AWS IAM</b>     | IAM Roles required for necessary deployment |[check here](https://aws.amazon.com/govcloud-us/pricing/iam/) |
 |6| <b>AWS Lambda</b>     | Lambda Function for Business Role Tier |[check here](https://aws.amazon.com/lambda/pricing/) |
 |7| <b>Amazon S3</b>     | 2 S3 Buckets - One to store associated access keys of user and other to store the complete repo as a backup |[check here](https://aws.amazon.com/s3/pricing/) |
+
+
+<br>
+Our First Pipeline content is available in  <b>'FirstPipeline'</b> folder within the same directory.
+<br>
+It is created by considering <b>'Serverless computing using Lambda Function'</b>
