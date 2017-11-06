@@ -325,7 +325,7 @@ def create_method_handler(complete_event, DeviceId_received):
                 time.sleep(10)
                 set_confirmation = create_Item_In_DynamoDB_Table(complete_event['payload']['Items'][i], complete_event['tableName'])
                 print("Response from create_Item_In_DynamoDB_Table:\n{}\n".format(set_confirmation))
-                response_to_sent[i] = 'Added Entry' if (str(set_confirmation).find("200") > -1) else "Error Adding Entry"
+                response_to_sent[i] = 'Entry Added' if (str(set_confirmation).find("200") > -1) else "Error Adding Entry"
 
             if flag == 1:
                 #Duplicate Entry found
@@ -334,14 +334,14 @@ def create_method_handler(complete_event, DeviceId_received):
                 print("\nfinal_payload_to_update is:\n{}".format(final_payload_to_update))
                 set_confirmation = update_Item_in_DynamoDB_Table(final_payload_to_update, complete_event['tableName'])
                 print("Response from update_Item_in_DynamoDB_Table:\n{}\n".format(set_confirmation))
-                response_to_sent[i] = 'Updated Entry' if (str(set_confirmation).find("200") > -1) else "Error Updating Entry"
+                response_to_sent[i] = 'Entry Updated' if (str(set_confirmation).find("200") > -1) else "Error Updating Entry"
 
             elif flag == 0:
                 #Duplicate Entry is not found. But Table exists
                 print("Table found. But entry not found. Will create new Entry")
                 set_confirmation = create_Item_In_DynamoDB_Table(complete_event['payload']['Items'][i], complete_event['tableName'])
                 print("Response from create_Item_In_DynamoDB_Table:\n{}\n".format(set_confirmation))
-                response_to_sent[i] = 'Added Entry' if (str(set_confirmation).find("200") > -1) else "Error Adding Entry"
+                response_to_sent[i] = 'Entry Added' if (str(set_confirmation).find("200") > -1) else "Error Adding Entry"
 
     return response_parser(201, response_to_sent)
     #create_method_handler ends here
@@ -380,7 +380,7 @@ def handler(event, context):
             return response_parser(202, response_to_sent)
         except ClientError as c:
             if r.response['Error']['Code'] == 'ResourceNotFoundException':
-                response_to_sent["Error"] = "Data Not Found"
+                response_to_sent["Error"] = "Entry Not Found"
                 return response_parser(404, response_to_sent)
         except KeyError:
             response_to_sent["Error"] = "Data not available for DateTime or Incorrect DeviceId"

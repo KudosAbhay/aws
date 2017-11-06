@@ -1,0 +1,53 @@
+Response after Creating New Entries using 'create' operation:
+{
+  "statusCode": 201,
+  "body": {
+    "0": "Entry Added",
+    "1": "Entry Added"
+  },
+  "headers": {
+    "Content-Type": "application/json"
+  }
+}
+
+
+Response after Updating Entries using 'create' operation:
+{
+  "statusCode": 201,
+  "body": {
+    "0": "Entry Updated",
+    "1": "Entry Updated"
+  },
+  "headers": {
+    "Content-Type": "application/json"
+  }
+}
+
+
+Response after Reading an Entry using 'read' operation:
+{
+  "statusCode": 202,
+  "body": {
+    "Milk Temperature": {
+      "S": "4.5"
+    },
+    "TSS Temperature": {
+      "S": "-3.9"
+    },
+    "DeviceId": {
+      "S": "Virginia"
+    },
+    "AC Voltage": {
+      "S": "222"
+    },
+    "Battery Voltage": {
+      "S": "17"
+    },
+    "DateTime": {
+      "S": "2017-10-30 00:02"
+    }
+  },
+  "headers": {
+    "Content-Type": "application/json"
+  }
+}
