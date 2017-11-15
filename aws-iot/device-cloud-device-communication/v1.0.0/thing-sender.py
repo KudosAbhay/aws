@@ -23,6 +23,16 @@
 # 2. Device Shadow is updated accordingly on aws iot accordingly
 # 3. Subscribe to the topic: '../shadow/update/accepted' from aws iot cloud through 'test' option
 # 4. Send payload for any changes to be made under 'desired' key in json on this topic
+#    This is the payload which is sent from aws iot cloud to device:
+#    {
+#       "state":
+#        {
+#           "desired":
+#           {
+#               "set_temp": value
+#           }
+#        }
+#    }
 # 5. Thing receives this new update as it is listening to the same topic
 # 6. Once this thing receives a new payload, it decodes the values and acts accordingly
 #
@@ -47,8 +57,6 @@ def customCallback(client, userdata, message):
         a = str(message.payload)
         a = json.loads(message.payload)
         print(a['state']['desired']['set_temp'])
-    else:
-        print("nothing new")
     print("--------------\n\n")
 
 
@@ -110,8 +118,6 @@ myAWSIoTMQTTClient.configureMQTTOperationTimeout(5)  # 5 sec
 
 # Connect and subscribe to AWS IoT
 myAWSIoTMQTTClient.connect()
-myAWSIoTMQTTClient.subscribe(topic, 1, customCallback)
-time.sleep(2)
 
 def create_payload(value):
     # now = datetime.datetime.now().strftime("%y-%m-%d %H:%M:%S")
