@@ -3,6 +3,7 @@
 List of links:
 
 <br>
+
 1. [Using One Certificate for Multiple Devices and No Thing Registration](https://forums.aws.amazon.com/thread.jspa?threadID=234102/)
 
 
@@ -15,4 +16,5 @@ List of links:
 List of links:
 
 <br>
+
 1. [Communicating to AWS IoT via Raspberry Pi](https://www.linkedin.com/pulse/prepare-your-raspberry-pi-work-aws-iot-kay-lerch/)
