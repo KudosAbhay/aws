@@ -14,3 +14,5 @@ List of links:
 List of links:
 
 1. [Communicating to AWS IoT via Raspberry Pi](https://www.linkedin.com/pulse/prepare-your-raspberry-pi-work-aws-iot-kay-lerch/)
+
+2. [Using REST API via Python to update and get the latest state of shadow](https://iotbytes.wordpress.com/device-shadows-part-3-restful-api-based-prototype-using-python/)
